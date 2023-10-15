@@ -1,0 +1,40 @@
+@import url("./assets/fonts/fonts.scss");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'jost', sans-serif;
+  color: #303132;
+}
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+  height: 100vh;
+}
+
+@media (max-width: 518px) {
+  :root {
+      font-size: 15px;
+  }
+}
+
+@media (max-width: 346px) {
+  :root {
+      font-size: 13px;
+  }
+}
+
+@media (max-width: 300px) {
+  :root {
+      font-size: 11px;
+  }
+}
